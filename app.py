@@ -1,5 +1,7 @@
 import pymongo
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+myclient = pymongo.MongoClient("mongodb://10.105.76.163:27017/")
 
-mydb = myclient["mydatabase"]
+mydb = myclient["Owlhacks-Project"]
+
+
